@@ -150,7 +150,7 @@ header {
 .hero {
     width: 100%;
     height: 70vh;
-    background: url(img/Fondo\ inicio\ título\ final.jpg) center no-repeat;
+    background: url(img/fondop.png) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -160,7 +160,7 @@ header {
 .h2-sub {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
-    color: #3bcc75;
+    color: #90c5a8;
     font-weight: 600;
     line-height: .4;
 }
@@ -205,7 +205,7 @@ header {
 
 .cta-btn {
     font-size: 1.1rem;
-    background-color: #094015;
+    background-color: #2b4731;
     padding: 1.5rem 3rem;
     color: #fff;
     border-radius: .4rem;
@@ -259,7 +259,7 @@ header {
 
 
 .taste {
-    background: url("img/fondo-itierra.jpg") center no-repeat;
+    background: url("img/tierraprincipal.png") center no-repeat;
     background-size:cover;
 }
 
@@ -284,7 +284,7 @@ Aire
 }
 
 .pb {
-    background: url("img/fondo-iaire.jpg") center no-repeat;
+    background: url("img/aireprincipal.png") center no-repeat;
     background-size: cover;
 }
 
@@ -302,16 +302,16 @@ Agua
 }
 
 .pi {
-    background: url("img/fondo-iagua.jpg") center no-repeat;
+    background: url("img/aguaprincipal.png") center no-repeat;
     background-size: cover;
 }
 
 
-footer
+
 footer {
     padding: 7.9rem 0;
-    background-color: #121212;
-    color: #fff;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
 }
