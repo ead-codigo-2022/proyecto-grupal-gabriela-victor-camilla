@@ -259,7 +259,7 @@ header {
 
 
 .taste {
-    background: url("img/Fondo.I\ Tierra.jpg") center no-repeat;
+    background: url("img/fondo-itierra.jpg") center no-repeat;
     background-size:cover;
 }
 
@@ -284,7 +284,7 @@ Aire
 }
 
 .pb {
-    background: url("img/Fondo.I\ Aire1.jpg") center no-repeat;
+    background: url("img/fondo-iaire.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@ Agua
 }
 
 .pi {
-    background: url("img/Fondo.I\ Agua.jpg") center no-repeat;
+    background: url("img/fondo-iagua.jpg") center no-repeat;
     background-size: cover;
 }
 
