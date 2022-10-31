@@ -142,7 +142,7 @@ header {
 }
 
 .nav-link:hover {
-    color: #3bcc75;
+    color: #82ab92;
 }
 
 
@@ -181,7 +181,7 @@ header {
 
 .circle {
     font-size: 1.5rem;
-    color: #0a0c0b;
+    color: #90c5a8;
     margin: 0 1.6rem;
 }
 
@@ -213,7 +213,7 @@ header {
 .cta-btn:hover,
 .cta-btn:focus {
     color: #fff;
-    background-color: #3bcc75;
+    background-color: #516459;
 }
 
 
@@ -349,7 +349,7 @@ footer {
 
 .social-icons i {
     font-size: 2rem;
-    color: #3bcc75;
+    color: #90c5a8;
     padding: .8rem 2rem;
     
 }
@@ -486,5 +486,183 @@ footer {
    .news-btn {
        margin-left: 7.5rem;
    }
+
+   :root {
+    --color-primary:    #f01f4b;
+    --color-text:       #17161A;
+    --color-background: #f5f5f5;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--color-text);
+  }
+  a {
+    color: var(--color-primary);
+  }
+  .container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services {
+    padding: 3rem 0;
+  }
+  .services__header {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .services__title {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .services__epigraph {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: .65rem 1rem .35rem;
+    font-size: .85rem;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: var(--color-background);
+    border-radius: 5px;
+  }
+  .services__body {
+    display: grid;
+    margin-bottom: 4rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .service {
+    padding: 2.5rem 1.25rem 2rem 1.25rem;
+    text-align: center;
+    background-color: var(--color-background);
+    border-radius: 20px;
+  }
+  .service__title {
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+  .service__description {
+    margin-bottom: 1.75rem;
+  }
+  .service__link {
+    color: var(--color-text);
+  }
+  .services__footer {
+    text-align: center;
+  }
+  .services__button {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+  }
+  .EAD {
+    background: url("img/escuelasomos.jpg") center no-repeat;
+    background-size:cover;
+}
+.services {
+    text-align: center;
+}
+
+
+.inf-agua {
+    text-align: center;
+}
+
+.inf-agua {
+    margin-bottom: 5rem;
+}
+
+.inf-agua p {
+    line-height: 1.6;
+    margin-bottom: 2.7rem
+}
+
+.list-agu{
+    font-size:1.75rem;
+    text-align:left;
+    margin-bottom: 5rem;
+    line-height: 1.6;
+    margin-bottom: 2.7rem
+
+
+}
+
+.img-stres{
+     width: 600px;
+    height: 600px;
+    left: 100;
+    top: 100;
     
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .slider-container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    overflow-x: scroll
+  }
+  .cards{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards .card{
+    background: #2b4731;
+    display: flex;
+    width: 140%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    
+}
+
+.cards .card img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
 }
